@@ -6,7 +6,7 @@
 
 body {
     font-family: "poppins", sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e1d4c2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,33 +14,43 @@ body {
     margin: 0;
 }
 .login-container {
-    background-color: white;
+    background-color: #ffe0b2;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 h2 {
+    text-align: center;
+    padding: 10px;
     margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #ffe0b2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .form-group {
     margin-bottom: 15px;
 }
 .form-group label {
     display: block;
-    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 1px solid #5cb85c;
+    border-radius: 99px;
+    outline: none;
 }
 .btn {
     background-color: #5cb85c;
+    font-size: 16px;
+    font-weight: 500;
     color: white;
     border: none;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 99px;
     cursor: pointer;
     width: 100%;
 }
